@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 const Navbar = () => {
   return (
-    <nav className="mx-2 gg:mx-5">
+    <nav className="mx-auto gg:mx-5">
       <div className="flex items-center justify-between">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png"

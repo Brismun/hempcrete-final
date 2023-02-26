@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/navbar";
+import OtherProducts from "./OtherProducts/OtherProducts";
 
 const App = () => {
   return (
@@ -14,8 +15,10 @@ const App = () => {
         <div className="boxWidth">HERO-HOME</div>
       </div>
 
-      <div className="flexStart paddingX">
-        <div className="boxWidth">AboutUS Gallery OtherProducts Footer</div>
+      <div className="flexStart paddingX bg-[#121212]">
+        <div className="boxWidth">
+          <OtherProducts />
+        </div>
       </div>
     </div>
   );
