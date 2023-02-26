@@ -27,11 +27,11 @@
   .marginY {
     @apply my-6 sm:my-16;
   }
-  .btn-primary {
-    @apply mt-[8px] w-full rounded-xl border  bg-orange-700 text-[14px] leading-[18px] tracking-tight;
+  .btn-secondary {
+    @apply h-[60px] w-[185px] bg-[#7B8753] font-headF text-[18px] font-medium text-white;
   }
-  .btn-seconday {
-    @apply mt-[8px] w-full rounded-xl border  bg-orange-700 text-[14px] leading-[18px] tracking-tight;
+  .btn-primary {
+    @apply h-[40px] w-[164px] bg-[#7B8753] font-headF text-[16px] font-bold text-white;
   }
 }
 
