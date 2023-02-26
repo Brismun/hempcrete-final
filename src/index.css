@@ -41,3 +41,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+.bg-blur-a {
+  position: relative;
+  backdrop-filter: blur(10px);
+}

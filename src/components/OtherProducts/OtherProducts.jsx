@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const OtherProducts = () => {
   return (
-    <div className=" flex flex-col  justify-center gap-7">
+    <div className=" mb-[40px] flex  flex-col justify-center gap-7">
       <div className=" flex  items-center gap-[50px] pl-[15px]">
         <div className="h-[120px] border-l-8 border-[#7B8753] "></div>
         <div className="flex flex-col gap-5 ">

@@ -10,6 +10,9 @@ module.exports = {
       screens: {
         gg: "700px",
       },
+      backgroundImage: {
+        "about-us": "url('/src/Photos/aboutusPhoto.png')",
+      },
     },
   },
   plugins: [],
