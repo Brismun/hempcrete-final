@@ -3,13 +3,18 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import Gallery from "./components/Gallery/Gallery";
 import Navbar from "./components/Navbar/navbar";
 import OtherProducts from "./components/OtherProducts/OtherProducts";
+<<<<<<< HEAD
+=======
+import Hero from "./components/Hero/hero";
+>>>>>>> 519a6d6299087a241b42b2513a1445e3260dd457
 
 const App = () => {
   return (
     <div className="w-full overflow-hidden">
-      <div className="paddingX flexCenter">
+      <div className="paddingX flexCenter bg-[#121212]">
         <div className="boxWidth">
           <Navbar />
+          <Hero />
         </div>
       </div>
 

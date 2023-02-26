@@ -8,7 +8,7 @@ module.exports = {
         paraF: ["Open Sans", "Serif"],
       },
       screens: {
-        gg: "700px",
+        gg: "836px",
       },
       backgroundImage: {
         "about-us": "url('/src/Photos/aboutusPhoto.png')",

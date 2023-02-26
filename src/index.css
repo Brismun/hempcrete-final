@@ -19,7 +19,7 @@
     @apply px-6 sm:px-16;
   }
   .paddingY {
-    @apply py-6 sm:py-16;
+    @apply py-16 gg:py-6;
   }
   .marginX {
     @apply mx-6 sm:mx-16;
@@ -28,10 +28,10 @@
     @apply my-6 sm:my-16;
   }
   .btn-secondary {
-    @apply h-[60px] w-[185px] bg-[#7B8753] font-headF text-[18px] font-medium text-white;
+    @apply h-[60px] w-[185px] bg-[#7B8753] font-headF text-[18px] font-medium text-white hover:bg-[#616b41];
   }
   .btn-primary {
-    @apply h-[40px] w-[164px] bg-[#7B8753] font-headF text-[16px] font-bold text-white;
+    @apply h-[40px] w-[164px] bg-[#7B8753] font-headF text-[16px] font-bold text-white hover:bg-[#616b41];
   }
 }
 
