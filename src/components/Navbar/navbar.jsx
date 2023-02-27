@@ -35,7 +35,7 @@ const Navbar = () => {
             Other Products
           </a>
 
-          <button class="btn-primary">Contact</button>
+          <button className="btn-primary">Contact</button>
         </div>
       </div>
     </nav>

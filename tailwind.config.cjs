@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         "about-us": "url('/src/Photos/aboutusPhoto.png')",
+        "contact-form": "url('/src/Photos/contact.png')",
       },
     },
   },

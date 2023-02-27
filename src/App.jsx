@@ -3,10 +3,8 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import Gallery from "./components/Gallery/Gallery";
 import Navbar from "./components/Navbar/navbar";
 import OtherProducts from "./components/OtherProducts/OtherProducts";
-<<<<<<< HEAD
-=======
 import Hero from "./components/Hero/hero";
->>>>>>> 519a6d6299087a241b42b2513a1445e3260dd457
+import ContactForm from "./components/ContactForm/ContactForm";
 
 const App = () => {
   return (
@@ -35,6 +33,11 @@ const App = () => {
       <div className="flexStart paddingX bg-about-us bg-cover bg-no-repeat">
         <div className="boxWidth">
           <AboutUs />
+        </div>
+      </div>
+      <div className="flexStart paddingX bgi-contact bg-contact-form">
+        <div className="boxWidth">
+          <ContactForm />
         </div>
       </div>
     </div>
