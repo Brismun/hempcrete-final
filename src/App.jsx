@@ -8,7 +8,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 
 const App = () => {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="xxx w-full overflow-hidden">
       <div className="paddingX flexCenter bg-[#121212]">
         <div className="boxWidth">
           <Navbar />
