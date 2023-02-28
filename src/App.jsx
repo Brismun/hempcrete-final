@@ -31,10 +31,8 @@ const App = () => {
           <AboutUs />
         </div>
       </div>
-      <div className="flexStart paddingX bgi-contact bg-contact-form bg-cover bg-no-repeat ">
-        <div className="boxWidth">
-          <ContactForm />
-        </div>
+      <div className="flexStart  bgi-contact bg-contact-form bg-cover bg-no-repeat ">
+        <ContactForm />
       </div>
     </div>
   );
