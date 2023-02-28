@@ -51,7 +51,9 @@ export default function ContactForm() {
               </div>
               <h1 className="font-headF text-[25px] text-white">Hire us</h1>
             </div>
-            <h1 className=" font-paraF text-[16px]  text-white ">Message</h1>
+            <h1 className=" mb-[15px] font-paraF  text-[16px] text-white">
+              Message
+            </h1>
             <TextField
               className="bg-blur-ab  text-white"
               id="outlined-multiline-flexible"
@@ -63,24 +65,31 @@ export default function ContactForm() {
             />
           </div>
           <div className="mt-3 flex w-full gap-3">
-            <TextField
-              className="bg-blur-ab"
-              size="small"
-              id="outlined-basic"
-              label="Name"
-              name="name"
-              variant="outlined"
-              fullWidth
-            />
-            <TextField
-              className="bg-blur-ab "
-              size="small"
-              id="outlined-basic"
-              label="Mail"
-              name="email"
-              variant="outlined"
-              fullWidth
-            />
+            <div>
+              <p className=" mb-[15px] font-paraF  text-[16px] text-white ">
+                Your Name
+              </p>
+              <TextField
+                className="bg-blur-ab"
+                size="small"
+                id="outlined-basic"
+                variant="outlined"
+                fullWidth
+              />
+            </div>
+            <div>
+              <p className=" mb-[15px] font-paraF  text-[16px] text-white">
+                Your Email
+              </p>
+              <TextField
+                className="bg-blur-ab "
+                size="small"
+                id="outlined-basic"
+                name="email"
+                variant="outlined"
+                fullWidth
+              />
+            </div>
           </div>
           <div className="mt-[20px] w-full">
             <button variant="contained" type="submit" className="btn-secondary">
