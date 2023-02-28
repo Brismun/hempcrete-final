@@ -8,16 +8,12 @@ import ContactForm from "./components/ContactForm/ContactForm";
 
 const App = () => {
   return (
-    <div className="xxx w-full overflow-hidden">
+    <div className="w-full overflow-hidden">
       <div className="paddingX flexCenter bg-[#121212]">
         <div className="boxWidth">
           <Navbar />
           <Hero />
         </div>
-      </div>
-
-      <div className="flexStart">
-        <div className="boxWidth">HERO-HOME</div>
       </div>
 
       <div className="flexStart paddingX bg-[#121212]">
