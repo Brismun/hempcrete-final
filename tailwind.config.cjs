@@ -13,6 +13,7 @@ module.exports = {
       backgroundImage: {
         "about-us": "url('/src/Photos/aboutusPhoto.png')",
         "contact-form": "url('/src/Photos/contact.png')",
+        "logo-contact": "url('/src/Photos/logo-contact.png')",
       },
     },
   },
