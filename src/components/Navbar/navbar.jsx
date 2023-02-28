@@ -13,6 +13,12 @@ const Navbar = () => {
           >
             Home
           </a>
+          <a
+            href=""
+            className="duration-650 rounded-full border-2 border-transparent p-1 transition ease-in-out hover:rounded-full hover:border-2 hover:border-solid hover:border-[#7B8753] hover:bg-[#7B8753] hover:text-white"
+          >
+            Services
+          </a>
 
           <a
             href=""
