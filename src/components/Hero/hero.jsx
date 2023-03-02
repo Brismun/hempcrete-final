@@ -10,7 +10,7 @@ const div = () => {
   return (
     <div className="py-5">
       <div className="flex flex-col items-center justify-center gg:flex-row gg:gap-[114px]">
-        <div className="max-w-[500px] text-center gg:text-left ">
+        <div className="max-w-[500px] text-center gg:text-left">
           <h1 className="font-headF text-[25px] text-[#D8B586] gg:mb-[15px] gg:text-[55px]">
             HEMPCRETE
           </h1>

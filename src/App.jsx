@@ -6,6 +6,7 @@ import OtherProducts from "./components/OtherProducts/OtherProducts";
 import Hero from "./components/Hero/hero";
 import ContactForm from "./components/ContactForm/ContactForm";
 import Media from "./components/Media/Media";
+import Services from "./components/Our Services/services";
 
 const App = () => {
   return (
@@ -32,11 +33,14 @@ const App = () => {
           <AboutUs />
         </div>
       </div>
-      <div className="flexStart  bgi-contact bg-contact-form bg-cover bg-no-repeat ">
+      <div className="flexStart bgi-contact bg-contact-form bg-cover bg-no-repeat">
         <ContactForm />
       </div>
       <div className="flexStart paddingX bg-[#121212]">
         <Media />
+      </div>
+      <div className="flexStart paddingX bg-[#121212]">
+        <Services />
       </div>
     </div>
   );
